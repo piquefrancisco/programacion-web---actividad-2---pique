@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem; 
+}
+
+.contenedor-cv {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto; 
+    background-color: #f0f0f0;
+    padding: 2vw;
+    box-sizing: border-box;
+    overflow: hidden; 
+}
+
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+}
+
+.imagen-perfil {
+    width: 20vw;
+    height: 20vw;
+    background-color: #a0a0a0;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul { margin-top: 1vh; }
+li { margin-bottom: 1vh; }
+a { color: black; font-weight: bold; }

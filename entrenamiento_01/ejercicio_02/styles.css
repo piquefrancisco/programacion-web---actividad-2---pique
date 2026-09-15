@@ -1,0 +1,123 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #ffffff;
+    height: 100vh;
+    font-size: 1.2rem;
+}
+
+.contenedor-principal {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    border: 0.1rem solid black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.cabecera-fija {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    border-bottom: 0.1rem solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.pie-fijo {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    border-top: 0.1rem solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.cabecera-fija a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 1vw;
+}
+
+
+.contenido-scroll {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    height: 80vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 2vw;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+}
+
+
+.imagen-receta {
+    width: 100%;
+    height: 20vh;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+
+.contenedor-formulario {
+    border: 0.1rem solid black;
+    padding: 2vw;
+    background-color: #e0e0e0;
+}
+
+.campo {
+    display: flex;
+    margin-bottom: 2vh;
+}
+
+.campo label {
+    width: 20%;
+}
+
+.campo input, .campo textarea {
+    width: 75%;
+    font-size: 1rem;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4vh;
+}
+
+.btn-enviar {
+    background-color: #bbdefb;
+    padding: 1vh 2vw;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.btn-cancelar {
+    background-color: #ffcdd2;
+    padding: 1vh 2vw;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.imagen-receta img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+    background-color: #f9f9f9; 
+}
